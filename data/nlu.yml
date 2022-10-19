@@ -4,88 +4,166 @@ nlu:
 - intent: greet
   examples: |
     - hey
-    - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
+    - olá
+    - oi
+    - eae
+    - bom dia
+    - boa tarde
+    - boa noite
+    - bdia
+    - oie
+    - oe
+    - buenas
 
 - intent: goodbye
   examples: |
-    - cu
-    - good by
-    - cee you later
-    - good night
+    - tchau
+    - até mais
+    - até
+    - adios
     - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
+    - até logo
 
 - intent: affirm
   examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
+    - sim
+    - s
+    - claro
+    - exato
+    - pode ser
+    - certo
+    - sempre
+    - si
 
 - intent: deny
   examples: |
     - no
+    - não
     - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
-
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
-
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+    - nao
+    - nunca
+    - acho que não
+    - não quero
+    - nops
 
 - intent: bot_challenge
   examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - você é um robo?
+    - você é um humano?
+    - estou falando com um robô?
+    - estou falando com um humano?
+
+- intent: introduction
+  examples: |
+    - menu principal do rasa
+    - menu Rasa
+    - sobre o rasa
+    - o que faz o rasa?
+    - o que é o rasa?
+    - Sobre RASA
+    - RASA
+    - informações sobre Rasa
+    - Rasa
+    - rasa
+    - ras
+    - RAS
+    - Ras
+    - introdução
+    - intro
+    - intro Rasa
+    - introducao
+
+- intent: rasa_playground
+  examples: |
+    - o que é o playground do Rasa
+    - parque do RASA
+    - funcionalidades do rasa
+    - funções do rasa
+    - Funções do RASA
+    - construção no rasa
+    - fazer chatbot
+    - chabot em rasa
+    - como fazer em Rasa 
+    - fazer chatbot rasa
+    - fazer Rasa chatbot
+
+- intent: installation
+  examples: |
+    - como instalar o RASA
+    - instalar Rasa
+    - instalar RASA
+    - fazer a instalação do rasa
+    - confi o rasa
+    - configurar o RASA
+    - como configurar o ambiente RASA
+    - configurar o ambiente
+    - ambiente configuração RASA
+    - ambiente rasa configurado 
+    - configurar rasa ambiente
+    - instalar rasa open source
+    - instalar rasa pro 
+    - instalar RASA Open Source 
+    - instalar RASA PRO 
+    - RASA PRO 
+    - Rasa pro instalação
+    - Rasa open source instalação
+
+- intent: building_assistants
+  examples: |
+    - como construir chatbot em rasa
+    - contrução em rasa chatbot
+    - construção chatbot em Rasa
+    - migrar chatbot em rasa
+    - migrar chatbot beta
+    - migrar chat rasa para rasa
+    - linhas de comando
+    - comandos RASA
+    - comandos
+    - rasa shell
+    - rasa init 
+    - rasa train
+    - rasa run 
+    - rasa run actions
+    - rasa test 
+    - rasa -h
+    - ver comandos do rasa
+    - ver comandos
+
+- intent: deploying_assistants
+  examples: |
+    - como ter assistente em Rasa
+    - implantar assistente 
+    - implantar rasa
+    - implantar servidor rasa ação
+    - implantar o servidor de ação
+    - servidor de ação
+    - acao servidor
+    - servidor ação 
+    - servidor
+    - ação serv 
+    - servidor ação
+    - implantar rasa plus
+    - rasa plus
+    - implantar rasa pro services
+    - rasa pro services
+    - pro services
+    - plus
+
+
+- intent: monitoring_analyzing_assistants
+  examples: |
+    - rasa analytics
+    - rasa analytics pro
+    - métricas do rasa pro
+    - rasa pro metricas
+    - sessões e números do analytics
+    - taxas do analytics
+    - estrutura de dados
+    - dados estrutura
+    - rastreamento rasa pro 
+    - rastreamento 
+    
+
+
+
+
